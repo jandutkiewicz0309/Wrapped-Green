@@ -1,0 +1,266 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-menu {
+  width: 100%;
+  height: 80px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  position: fixed;
+  align-items: center;
+  grid-column-gap: 40%;
+  background-color: #ffffff;
+}
+.logo-picture {
+  margin: 17px 0 16px 71px;
+}
+
+.menu-info {
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.menu-info a {
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-size: 25px;
+  color: #383833;
+  margin: 26px 64px 25px 0;
+}
+
+.white-menu {
+  height: 80px;
+  width: 100%;
+}
+
+.main-header {
+  background: transparent linear-gradient(180deg, #DEF0D8 0%, #FAFAFA 100%) 0% 0% no-repeat padding-box;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.info-header {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  color: #383833;
+}
+
+.info-header h1 {
+  margin: 171px 71px 20px;
+  font-size: 70px;
+}
+
+.info-header p {
+  margin: 20px 72px 32px;
+  font-size: 20px;
+}
+
+.info-header button {
+  width: 207px;
+  height: 53px;
+  margin: 32px 72px 61px;
+  background-color: #F19A33;
+  border-radius: 8px;
+  color: white;
+  border-color: #F19A33;
+}
+
+.picture-tray {
+border-radius: 100% 90% 90% 100%;
+background-color: #387546;
+}
+
+.picture-tray img{
+  margin: 41px 83px 147px 108px;
+}
+
+.more-about {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  color: #383833;
+}
+
+.vegetable-picture {
+  margin: 50px 50px 50px 0px;
+  border-radius: 100%;
+  background-color: #598463;
+}
+
+.more-about-text {
+  color: #383833;
+  text-decoration: none;
+}
+
+.more-about-text h2 {
+  font-size: 30px;
+  color: #F19A33;
+  margin: 121px 0 16px 118px;
+}
+
+.more-about-text h3 {
+  font-size: 56px;
+  font-weight: bold;
+  margin: 16px 0 20px 118px;
+}
+
+.more-about-text p {
+  font-size: 24px;
+  margin: 20px 0 24px 118px;
+}
+
+.more-about-text button {
+  border-color: #387546;
+  width: 195px;
+  height: 60px;
+  background-color: #387546;
+  border-radius: 8px;
+  margin: 24px 0 0 118px;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.food-menu {
+  width: 90%;
+  margin: 0 auto;
+  background-color: #fafafa;
+}
+.food-menu-info {
+  color: #383833;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 0 32px 0;
+}
+
+.food-menu-info h2 {
+  color: #f19a33;
+  font-size: 30px;
+  padding: 0 0 16px 0;
+}
+
+.food-menu-info h3 {
+  font-size: 56px;
+  padding: 0 0 20px 0;
+}
+
+.food-menu-dishes {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 24px;
+}
+
+.dish-card {
+  display: flex;
+  flex-direction: column;
+  -webkit-box-shadow: 0px 12px 26px -13px rgba(66, 68, 90, 1);
+  -moz-box-shadow: 0px 12px 26px -13px rgba(66, 68, 90, 1);
+  box-shadow: 0px 12px 26px -13px rgba(66, 68, 90, 1);
+}
+
+.dish-card-info {
+  padding: 0 28px 27px 16px;
+}
+
+.dish-info-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dish-info-header p {
+  font-weight: bold;
+  padding: 25px 0 14px 0;
+}
+
+.galery-photo {
+  width: 90%;
+  display: grid;
+  grid-template-areas: 1fr 1fr;
+  text-align: center;
+  justify-content: center;
+}
+
+.galery-photo-text {
+  margin: 112px 0 33px 0;
+  color: #383833;
+  font-size: 56px;
+  font-weight: bold;
+}
+
+.galery-photo-picture img {
+  margin: 10px;
+}
+
+.contact {
+  display: grid;
+  grid-template-columns:  1fr 1fr 1fr;
+  width: 90%;
+  grid-column-gap: 10%;
+  text-align: center;
+  justify-content: center;
+  margin: 112px auto;
+}
+
+.detail-info {
+  padding: 30px 60px;
+  border-radius: 60px 60px 60px 60px;
+  -webkit-box-shadow: 0px 8px 9px -1px rgba(66, 68, 90, 1);
+  -moz-box-shadow: 0px 8px 9px -1px rgba(66, 68, 90, 1);
+  box-shadow: 0px 8px 9px -1px rgba(66, 68, 90, 1);
+}
+
+.detail-info h6 {
+  font-size: 20px;
+  color: #383833;
+  font-weight: bold;
+  margin: 10px 0 10px;
+}
+
+.detail-info p {
+  font-size: 18px;
+  color: #383833;
+}
+
+.social-info-logo {
+  margin: 0 auto;
+  border-radius: 100%;
+  background-color: #ffffff;
+  padding: 0px;
+}
+
+.social-info {
+  width: 100%;
+  display: grid;
+  text-align: center;
+  justify-content: center;
+  background-color: #387546;
+  margin-bottom: 80px;
+  grid-column-gap: 20%;
+}
+
+.social-info-text li{
+  display: flex;
+  list-style: none;
+}
+
+.social-info-text a{
+  margin:70px;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.social-info-picture img{
+  margin:0 70px;
+}
+
